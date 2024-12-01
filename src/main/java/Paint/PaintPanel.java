@@ -8,6 +8,7 @@ import java.util.ArrayList;
 // ZONE DE DESSIN
 class PaintPanel extends JPanel {
     private Color currentColor = Color.BLACK;
+    private Color gommeBlanche = Color.WHITE;
     private String drawingMode = "Pinceau";
     private ArrayList<Shape> shapes = new ArrayList<>();
     private Shape currentShape = null;
